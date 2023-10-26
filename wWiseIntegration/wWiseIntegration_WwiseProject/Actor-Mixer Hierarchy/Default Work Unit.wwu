@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{67021C8B-816A-40A5-9B71-42E7777C1798}" SchemaVersion="110">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{67021C8B-816A-40A5-9B71-42E7777C1798}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Rain" ID="{22EC897D-C97C-43A6-8C58-13386A582966}" ShortID="358337188">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{E39FC395-B181-49CE-9980-D85D20634759}"/>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{161040C8-A87F-4F0E-BDF1-989DF0C4EAC3}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{617FFBC7-8CD9-422A-B98D-9E3C15F0744D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="401276__inspectorj__rain-moderate-b" ID="{5D92DE51-888B-499E-A6A2-F2084308EA57}">
+							<Language>SFX</Language>
+							<AudioFile>401276__inspectorj__rain-moderate-b.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="53940827"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="401276__inspectorj__rain-moderate-b" ID="{5D92DE51-888B-499E-A6A2-F2084308EA57}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="ClockTick" ID="{D2781E6C-3630-4D86-9EC8-5044FEA7D455}" ShortID="76793914">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{161040C8-A87F-4F0E-BDF1-989DF0C4EAC3}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{617FFBC7-8CD9-422A-B98D-9E3C15F0744D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="212181__owlstorm__loopable-ticking-clock" ID="{D2EFA892-2FDB-451E-94DE-223139E8D27A}">
+							<Language>SFX</Language>
+							<AudioFile>212181__owlstorm__loopable-ticking-clock.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="99418356"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="212181__owlstorm__loopable-ticking-clock" ID="{D2EFA892-2FDB-451E-94DE-223139E8D27A}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

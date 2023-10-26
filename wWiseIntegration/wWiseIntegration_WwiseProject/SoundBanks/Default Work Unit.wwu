@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{344AB7CD-BE55-4196-AD0D-F52E2210B553}" SchemaVersion="110">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{344AB7CD-BE55-4196-AD0D-F52E2210B553}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Main" ID="{0A9F56E4-B01D-4F10-AB7F-6C6E17F829C7}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_ClockTick" ID="{4F0DADDD-0AEF-4DBB-8DF2-EA7CD5511434}" WorkUnitID="{BBA38D71-2BFC-441D-A3A1-1E77615A6E0C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Rain" ID="{BBDEFBBC-A8B1-4F4C-9D34-1CD468A1DF5D}" WorkUnitID="{BBA38D71-2BFC-441D-A3A1-1E77615A6E0C}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

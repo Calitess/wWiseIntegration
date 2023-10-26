@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{BBA38D71-2BFC-441D-A3A1-1E77615A6E0C}" SchemaVersion="110">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{BBA38D71-2BFC-441D-A3A1-1E77615A6E0C}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Rain" ID="{BBDEFBBC-A8B1-4F4C-9D34-1CD468A1DF5D}">
+					<ChildrenList>
+						<Action Name="" ID="{FAE77802-264C-480F-A9DF-2B37DAD5E1FB}" ShortID="479438266">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Rain" ID="{22EC897D-C97C-43A6-8C58-13386A582966}" WorkUnitID="{67021C8B-816A-40A5-9B71-42E7777C1798}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_ClockTick" ID="{4F0DADDD-0AEF-4DBB-8DF2-EA7CD5511434}">
+					<ChildrenList>
+						<Action Name="" ID="{6D584612-7396-43BF-891D-89D64F111DA3}" ShortID="474763463">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ClockTick" ID="{D2781E6C-3630-4D86-9EC8-5044FEA7D455}" WorkUnitID="{67021C8B-816A-40A5-9B71-42E7777C1798}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

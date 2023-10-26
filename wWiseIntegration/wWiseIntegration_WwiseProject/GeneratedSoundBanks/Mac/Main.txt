@@ -1,0 +1,8 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1744151207	Play_ClockTick			\Default Work Unit\Play_ClockTick	
+	2838936948	Play_Rain			\Default Work Unit\Play_Rain	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	53940827	Rain	D:\GitHub\GitHub\CC2_wWiseIntegration\wWiseIntegration\wWiseIntegration_WwiseProject\.cache\Mac\SFX\401276__inspectorj__rain-moderate-b_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Rain		7082080
+	99418356	ClockTick	D:\GitHub\GitHub\CC2_wWiseIntegration\wWiseIntegration\wWiseIntegration_WwiseProject\.cache\Mac\SFX\212181__owlstorm__loopable-ticking-clock_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\ClockTick		703320
+
